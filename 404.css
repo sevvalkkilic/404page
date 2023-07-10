@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@700&family=Montserrat:wght@500&family=Space+Mono:wght@400;700&display=swap');
+
+
+:root
+{
+    --font-size-xs: 14px;
+    --font-size-sm:  18px;
+    --font-size-md: 24px;
+    --font-size-lg: 48px;
+    --font-family-1: 'Inconsolata', monospace;
+    --font-family-2: 'Montserrat', sans-serif;
+    --font-family-3: 'Space Mono', monospace;
+}
+
+*{
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+}
+
+header{
+font-family: var(--font-family-1);
+font-size: var(--font-size-md);
+font-weight: 700;
+text-align: left;
+padding: 1rem;
+
+}
+main{
+    padding: 1rem;
+}
+section>img
+{
+width: 100%;
+height: auto;
+}
+h1{
+    font-family:var(--font-family-3);
+    font-weight: 700;
+    font-size:var(--font-size-lg);
+    color:#333333;
+    letter-spacing: -0.8px;
+    
+}
+p{
+    font-family:var(--font-family-3);
+    font-weight:400;
+    font-size: var(--font-size-sm);
+    color:#4F4F4F;
+}
+button
+{
+background-color:#333333;
+font-family:var(--font-family-3);
+font-weight: 700;
+font-size:var(--font-size-xs);
+color: #FFFFFF;
+border: 0;
+padding: 1rem 3rem;
+text-transform: uppercase;
+
+
+}
+
+   
+
+
+
